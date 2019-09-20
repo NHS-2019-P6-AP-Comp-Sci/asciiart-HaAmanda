@@ -50,7 +50,7 @@ public class ASCIIArt {
 		      System.out.println("                       ..           ..  " );
 		      System.out.println("                ....::::             ::::....   " );
 		      System.out.println("             :::::''                    '':::::     " );
-		      System.out.println("            ::::::::::::::::,,..,,::::::::::::::  ");
+		      System.out.println("            \"\":::::::::::::,..,::::::::::::::\"\"  ");
 		      System.out.println("                 '''':::::::;;;;;;;:::::''''         " );
 
 		     }
