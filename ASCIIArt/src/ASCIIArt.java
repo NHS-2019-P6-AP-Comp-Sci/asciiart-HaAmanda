@@ -18,7 +18,7 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		  SpaceShipLine1();
+		    SpaceShipLine1();
 		    SpaceShipLine2();
 		    SpaceShipLine3();
 		    SpaceShipLine2();
