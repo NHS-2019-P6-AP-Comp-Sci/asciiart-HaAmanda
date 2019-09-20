@@ -18,10 +18,63 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		  SpaceShipLine1();
+		    SpaceShipLine2();
+		    SpaceShipLine3();
+		    SpaceShipLine2();
+		    SpaceShipLine1();
+		    System.out.println();
+		    LightBeam();
+		    LightBeam();
+		    LightCircle();
+		    LightBeam();
+		    LightCircle();
+		    Mountain();
+
+		  }
+		  
+		    public static void SpaceShipLine1(){
+		      System.out.println("                           <<<>>>");
+		      
+		}
+		    public static void SpaceShipLine2(){
+		      System.out.println("                <<<<<<<<<<<<<<>>>>>>>>>>>>>>");
+		      
+		}
+		    public static void SpaceShipLine3(){
+		      System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+		      
+		}
+
+		    public static void LightCircle(){
+		      System.out.println("                       ..           ..  " );
+		      System.out.println("                ....::::             ::::....   " );
+		      System.out.println("             :::::''                    '':::::     " );
+		      System.out.println("            ::::::::::::::::,,..,,::::::::::::::  ");
+		      System.out.println("                 '''':::::::;;;;;;;:::::''''         " );
+
+		     }
+		     
+		     public static void LightBeam(){
+		     
+		     System.out.println("                        :          :        " );
+		     System.out.println("                        :          :        " );
+		     
+		     }
+		     
+		     public static void Mountain(){
+		         
+		        System.out.println("                                     /\\    " );
+		        System.out.println("                                    //\\\\      " );
+		        System.out.println("                                   ///\\\\\\      " );
+		        System.out.println("                                  /////\\\\\\      " );
+		        System.out.println("                    /\\           /////\\\\\\\\\\   " );
+		        System.out.println("                   //\\\\         //////\\\\\\\\\\\\  " );
+		        System.out.println("                  ///\\\\\\       //////\\\\\\\\\\\\\\\\   " );
+		        System.out.println("                 ////\\\\\\\\     /////////\\\\\\\\\\\\\\      " );
+		        System.out.println("                /////\\\\\\\\\\   /////////\\\\\\\\\\\\\\\\\\    " );
+		        
+		  
+
 	}
 }
